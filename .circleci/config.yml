@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/openjdk:17-ea-28-jdk-buster-node-browsers-legacy
+      - image: cimg/openjdk:16.0.0
 
       - image: circleci/postgres:9.6.2-alpine
         environment:
